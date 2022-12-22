@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 const Home = () => {
   const classes = useStyles();
   return (
-    <video autoPlay loop src="http://localhost:8080/src/assets/video/space.mp4" className={classes.video}></video>
+    <video autoPlay loop src="/src/assets/video/space.mp4" className={classes.video}></video>
   );
 };
 
